@@ -17,11 +17,16 @@
 //     echo "we could not fid ";
 // }
 function NombrePremier($nbr){
- for($i=1 ; $i<=$nbr/2; $i++){
- if($nbr % $i==0 ){
-    echo "nombre premier";
-}
+    
+ for($i=2 ; $i<= $nbr/2; $i++){
+
+   
+  }
+   
  }
-}
- NombrePremier(10);
+ 
+
+
+
+ NombrePremier();
 ?>
